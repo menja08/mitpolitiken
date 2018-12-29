@@ -1,0 +1,71 @@
+
+
+@media (min-width: 801px) {
+    body {
+    width: 100%;
+    // background: lightblue;
+    }
+
+    header {
+	#logo {}
+
+	nav {
+	    display: flex;
+	    background: lightgreen;
+
+	    .topMenu {
+		border: 1px solid red;
+		text-align: center;
+		margin-right: 1%;
+		width: 100%;
+	    }
+
+	    #hiddenMenu{
+		img {
+		    width: 20%;
+		}
+
+		#imagex {
+		    display: none;
+		   // width: 15%;
+		}
+	    }
+	}
+    }
+
+    #openHiddenMenu {
+	display: none;
+	// width: 100%;
+
+	#topSection {
+	    display: flex;
+	    width: 30%;
+	    margin: auto;
+	    // border: 1px solid blue;
+
+	    .insideTopSection {
+		width: 33.3%;
+		margin: auto;
+		text-align: center;
+		margin-top: 0;
+		margin-left: 2%;
+		padding-right: 2%;
+		border-right: 1px solid lightgrey;
+
+		img {
+		    width: 100%;
+		}
+
+		#politikenPlus {
+		    margin-bottom: 25%;
+		    // background: lightyellow;
+		    // border-bottom: 1px solid red;
+		}
+	    }
+
+	    .insideTopSection:last-of-type {
+		border-right: 0;
+	    }
+	}
+    }
+}
